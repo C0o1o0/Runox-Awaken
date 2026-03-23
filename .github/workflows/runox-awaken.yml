@@ -3,7 +3,7 @@ name: Runox-Awaken
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '16 * * * *'
 
 jobs:
   run_runox_awaken:
